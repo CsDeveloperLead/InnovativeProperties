@@ -135,7 +135,7 @@ const TestimonialCarousel = () => {
           {Array.from({ length: totalSlides }).map((_, slideIndex) => (
             <div
               key={slideIndex}
-              className="flex-none w-full flex gap-1 md:pr-4"
+              className="flex-none w-full flex gap-2 md:pr-4"
               style={{ width: "100%" }}
             >
               {testimonials
