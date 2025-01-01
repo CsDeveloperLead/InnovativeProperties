@@ -157,7 +157,7 @@ const TestimonialCarousel = () => {
                     ? "w-1/2"
                     : "w-1/4";
 
-                  const visible = isHovered || isFirstCard && hoveredIndex === null || !isMobile ? "visible" : "hidden";
+                  const visible = isHovered || isFirstCard && hoveredIndex === null  ? "visible" : "hidden";
 
                   return (
                     <div
