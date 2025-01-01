@@ -86,7 +86,7 @@ function LandingPage() {
             </div>
           </div>
           <div className='w-auto h-auto flex flex-col'>
-            <label htmlFor="bedrooms" className='font-semibold'>Bedroom(s)</label>
+            <label htmlFor="bedrooms" className='font-semibold'>Config</label>
             <div className='w-auto h-auto flex items-center py-2 gap-2'>
               <PiBedLight size={20} />
               <div className=''>

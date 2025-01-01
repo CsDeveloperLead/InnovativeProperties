@@ -1,8 +1,13 @@
 import React from "react";
 import scale from "../assets/homepage/straighten.svg";
+import { Link } from "react-router-dom";
 const PropertyCard = ({ property }) => {
   return (
-    <div className="bg-white rounded-2xl shadow-lg border md:hover:shadow-2xl duration-500 border-[#ACACAC]  w-[320px] h-[545px] font-jakarta">
+    <Link to={
+      property.link?.includes("https://teja-build-tech.vercel.app/properties")
+        ? property.link
+        : `/single-property/${property.id}`
+    } className="bg-white rounded-2xl shadow-lg border md:hover:shadow-2xl duration-500 border-[#ACACAC]  w-[320px] h-[545px] font-jakarta">
       {/* Image Section */}
       <div className="relative w-full  object-cover rounded-2xl  h-[350px] bg-gray-300">
         <img
@@ -47,7 +52,7 @@ const PropertyCard = ({ property }) => {
           Buy Properties
         </button>
       </div>
-    </div>
+    </Link>
   );
 };
 
