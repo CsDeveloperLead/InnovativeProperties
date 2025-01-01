@@ -7,6 +7,7 @@ import {
 import { CiLocationOn } from "react-icons/ci";
 import PropertyCard from "../Components/PropertyCard";
 import Property from "../propertyData";
+import AutoSlidingCarousel from "../Components/AutoSlidingCarousels.jsx";
 
 const Properties = () => {
   const [filters, setFilters] = useState({
@@ -60,7 +61,10 @@ const Properties = () => {
   return (
     <div className="px-5 md:px-10 xl:px-20">
       {/* section1 */}
-      <div className="w-full h-[450px] bg-gray-400 rounded-3xl my-10"></div>
+      {/* <div className="w-full h-[450px] bg-gray-400 rounded-3xl my-10"></div> */}
+      <div className="mt-6">
+        <AutoSlidingCarousel />
+      </div>
 
       {/* section2 */}
       <div className="w-full h-auto p-4 shadow-custom rounded-3xl flex flex-col lg:py-8 bg-white my-7 gap-5 mx-auto font-jakarta lg:flex-row lg:gap-3 lg:justify-between">
