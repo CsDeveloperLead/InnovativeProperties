@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        'custom': '0px 4px 25px 0px #00000040',
+      },
       fontFamily: {
         jakarta: ['"Plus Jakarta Sans"', 'sans-serif'],
       },
