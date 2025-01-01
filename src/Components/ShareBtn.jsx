@@ -28,7 +28,7 @@ const CopyLinkButton = ({ link }) => {
             {/* Button */}
             <button
                 onClick={handleCopy}
-                className="w-auto h-auto p-2 px-5 rounded-md cursor-pointer flex items-center justify-center gap-2 text-[#1095D0] md:hover:bg-[#1096d05a] font-medium bg-[#1096d023] md:py-3 md:px-7 md:text-lg"
+                className="w-auto h-auto p-2 px-5 rounded-md cursor-pointer flex items-center justify-center gap-2 text-[#0F3C4C] md:hover:bg-[#1096d05a] font-medium bg-[#6cc5e5] md:py-3 md:px-7 md:text-lg"
             >
                  <IoShareSocialOutline size={20} />
                 Share

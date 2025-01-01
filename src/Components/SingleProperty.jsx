@@ -58,7 +58,7 @@ function SinglePropertyPage() {
       <div className="w-full h-auto flex flex-col px-5 sm:px-7 md:px-12 pt-7 xl:px-40 font-jakarta">
         <div className="w-full h-auto flex flex-col">
           <div className="w-full h-auto flex flex-col justify-between gap-2 sm:flex-row sm:gap-0 sm:items-center">
-            <h1 className="text-xl font-bold text-[#1095D0] lg:text-3xl 2xl:text-4xl">
+            <h1 className="text-xl font-bold text-[#0F3C4C] lg:text-3xl 2xl:text-4xl">
               {property.title}
             </h1>
             <div className="w-auto h-auto flex gap-2 items-end">
@@ -69,7 +69,7 @@ function SinglePropertyPage() {
             </div>
           </div>
           <h1 className="mt-4 md:text-lg">
-            By <span className="text-[#1095D0] font-semibold">KDSure</span>
+            By <span className="text-[#0F3C4C] font-semibold">Innovative Properties</span>
           </h1>
           <div className="w-full h-auto flex mt-2 justify-between flex-col md:mt-4 sm:flex-row gap-3 sm:gap-0">
             <span className="text-slate-600 font-semibold">
@@ -79,7 +79,7 @@ function SinglePropertyPage() {
               to={property.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-36 h-auto px-5 py-2 bg-[#1095D0] text-white font-semibold rounded-md sm:w-auto cursor-pointer hover:bg-[#43b1e0] md:px-6 md:py-3"
+              className="w-36 h-auto px-5 py-2 bg-[#0F3C4C] text-white font-semibold rounded-md sm:w-auto cursor-pointer hover:bg-[#18617b] md:px-6 md:py-3"
             >
               Contact Now
             </Link>
@@ -155,9 +155,9 @@ function SinglePropertyPage() {
         </div>
         <div className="w-full h-auto flex my-10">
           <div className="w-full h-auto flex flex-col lg:w-[60%]">
-            <div className="w-full h-auto flex flex-col border-8 rounded-xl border-[#1095D0] p-5">
+            <div className="w-full h-auto flex flex-col border-8 rounded-xl border-[#0F3C4C] p-5">
               <h1 className="text-lg font-semibold">
-                Why <span className="text-[#1095D0]">{property.title}</span> ?
+                Why <span className="text-[#0F3C4C]">{property.title}</span> ?
               </h1>
               <ul className="list-inside list-disc text-xs sm:text-sm mt-5 lg:text-base">
                 {property?.details?.map((item, index) => (
@@ -170,7 +170,7 @@ function SinglePropertyPage() {
             <div className="w-full h-auto flex flex-col my-8 px-2 gap-5 lg:my-10">
               <div className="w-full h-auto flex gap-5">
                 <div className="w-auto h-auto flex justify-center items-center flex-shrink-0">
-                  <FaMapLocationDot size={25} className="text-[#1095D0]" />
+                  <FaMapLocationDot size={25} className="text-[#0F3C4C]" />
                 </div>
                 <div className="w-full flex-1 flex flex-col">
                   <span className="text-gray-500 text-sm font-medium">
@@ -217,7 +217,7 @@ function SinglePropertyPage() {
               </div>
 
               <div className="w-full h-auto flex flex-col justify-center items-center">
-                <Link to={property.mapLink} target="_blank" className="text-[#1095D0] font-medium cursor-pointer">
+                <Link to={property.mapLink} target="_blank" className="text-[#0F3C4C] font-medium cursor-pointer">
                   View more on Maps
                 </Link>
               </div>
@@ -277,7 +277,7 @@ function SinglePropertyPage() {
                   to={property.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-auto h-auto p-2 px-5 rounded-md cursor-pointer flex items-center justify-center gap-2 bg-[#1095D0] md:hover:bg-[#4ebcec] font-medium text-white md:py-3 md:px-7 md:text-lg"
+                  className="w-auto h-auto p-2 px-5 rounded-md cursor-pointer flex items-center justify-center gap-2 bg-[#0F3C4C] md:hover:bg-[#18617b] font-medium text-white md:py-3 md:px-7 md:text-lg"
                 >
                   Ask For Details
                 </Link>
@@ -313,7 +313,7 @@ function SinglePropertyPage() {
                   href={property.brochure}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-6 py-2 bg-[#1095D0] md:hover:bg-[#4ebcec] text-white font-semibold flex items-center gap-2 rounded-md"
+                  className="px-6 py-2 bg-[#0F3C4C] md:hover:bg-[#18617b] text-white font-semibold flex items-center gap-2 rounded-md"
                 >
                   <MdOutlineFileDownload size={25} />
                   Download Brochure
@@ -337,7 +337,7 @@ function SinglePropertyPage() {
                 to={property.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-auto h-auto px-6 py-2 bg-[#1095D0] text-white font-semibold"
+                className="w-auto h-auto px-6 py-2 bg-[#0F3C4C] text-white font-semibold"
               >
                 Contact Now
               </Link>
