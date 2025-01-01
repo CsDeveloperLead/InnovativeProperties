@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import {
   PiBedLight,
   PiHouseLineThin,
@@ -7,12 +7,19 @@ import {
 import { CiLocationOn } from "react-icons/ci";
 import PropertyCard from "../Components/PropertyCard";
 import Property from "../propertyData";
+import AutoSlidingCarousel from "../Components/AutoSlidingCarousels.jsx";
 
 const Properties = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="px-5 md:px-10 xl:px-20">
       {/* section1 */}
-      <div className="w-full h-[450px] bg-gray-400 rounded-3xl my-10"></div>
+      {/* <div className="w-full h-[450px] bg-gray-400 rounded-3xl my-10"></div> */}
+      <div className="mt-6">
+        <AutoSlidingCarousel />
+      </div>
 
       {/* section2 */}
 
