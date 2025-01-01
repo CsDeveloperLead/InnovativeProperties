@@ -107,17 +107,19 @@ const TestimonialCarousel = () => {
     <div className="w-full mb-14 flex flex-col items-center px-5 md:px-10 xl:px-20 font-jakarta">
       {/* Header and Navigation Buttons */}
       <div className="flex justify-between items-center w-full mb-8">
-        <h2 className="text-2xl md:text-5xl text-[#0f3c4c] font-bold">Words from Our Clients</h2>
+        <h2 className="text-2xl md:text-5xl text-[#0f3c4c] font-bold">
+          Words from Our Clients
+        </h2>
         <div className="flex gap-4">
           <button
             onClick={prevSlide}
-            className="p-1.5 md:p-3 text-black hover:text-white hover:bg-[#0f3c4c] rounded-full"
+            className="p-1.5 md:p-3 text-black active:text-white active:bg-[#0f3c4c] md:hover:text-white md:hover:bg-[#0f3c4c] rounded-full"
           >
             <FaArrowLeft />
           </button>
           <button
             onClick={nextSlide}
-            className="p-1.5 md:p-3 text-black hover:text-white hover:bg-[#0f3c4c] rounded-full"
+            className="p-1.5 md:p-3 text-black active:text-white active:bg-[#0f3c4c] md:hover:text-white md:hover:bg-[#0f3c4c] rounded-full"
           >
             <FaArrowRight />
           </button>
@@ -133,43 +135,58 @@ const TestimonialCarousel = () => {
           {Array.from({ length: totalSlides }).map((_, slideIndex) => (
             <div
               key={slideIndex}
-              className="flex-none w-full flex gap-4 px-4"
+              className="flex-none w-full flex gap-1 md:pr-4"
               style={{ width: "100%" }}
             >
               {testimonials
-                .slice(slideIndex * itemsPerSlide, slideIndex * itemsPerSlide + itemsPerSlide)
+                .slice(
+                  slideIndex * itemsPerSlide,
+                  slideIndex * itemsPerSlide + itemsPerSlide
+                )
                 .map((testimonial, cardIndex) => {
                   const globalIndex = slideIndex * itemsPerSlide + cardIndex;
                   const isHovered = hoveredIndex === globalIndex;
                   const isFirstCard = cardIndex === 0;
+                  const isVisible = slideIndex === currentIndex;
 
-                  const cardWidth =
-                    isMobile
-                      ? "w-full"
-                      : isHovered
-                      ? "w-1/2"
-                      : isFirstCard && hoveredIndex === null
-                      ? "w-1/2"
-                      : "w-1/4";
+                  const cardWidth = isMobile
+                    ? "w-full"
+                    : isHovered
+                    ? "w-1/2"
+                    : isFirstCard && hoveredIndex === null
+                    ? "w-1/2"
+                    : "w-1/4";
+
+                  const visible = isHovered || isFirstCard && hoveredIndex === null || !isMobile ? "visible" : "hidden";
 
                   return (
                     <div
                       key={testimonial.id}
-                      className={`flex-none ${cardWidth} bg-white rounded-3xl border border-[#0f3c4c] p-4`}
+                      className={`flex-none ${cardWidth} bg-white rounded-2xl duration-500 border border-[#0f3c4c] p-4`}
                       onMouseEnter={() => setHoveredIndex(globalIndex)}
                       onMouseLeave={() => setHoveredIndex(null)}
                     >
-                      <div className="flex flex-col h-full justify-between">
-                        <p className="text-sm lg:text-base text-gray-700">{testimonial.text}</p>
-                        <div className="flex flex-col mt-4">
-                          <p className="font-semibold text-gray-900">{testimonial.name}</p>
-                          <div className="flex text-[#FFB22E] text-2xl md:text-4xl mt-1">
-                            {Array.from({ length: testimonial.rating }).map((_, index) => (
-                              <span key={index}>★</span>
-                            ))}
+                      <div className="flex flex-col md:flex-row h-full justify-between">
+                        <div className="flex flex-col justify-between">
+                          <p className="text-sm lg:text-base text-gray-700">
+                            {testimonial.text}
+                          </p>
+                          <div className="flex flex-col">
+                            <p className="font-semibold text-gray-900 ">
+                              {testimonial.name}
+                            </p>
+                            <div className="flex text-[#FFB22E] text-2xl md:text-4xl mt-1">
+                              {Array.from({ length: testimonial.rating }).map(
+                                (_, index) => (
+                                  <span key={index}>★</span>
+                                )
+                              )}
+                            </div>
                           </div>
                         </div>
-                        <div className="w-full h-[150px] bg-gray-300 rounded-2xl mt-4">
+                        <div
+                          className={` ${visible} mt-4 md:mt-0 w-full h-[190px] bg-gray-300 rounded-2xl`}
+                        >
                           <img
                             src={testimonial.img}
                             alt=""

@@ -8,6 +8,7 @@ export default {
     extend: {
       boxShadow: {
         'custom': '0px 4px 25px 0px #00000040',
+        'custom2': '5px 5px 45px 0px #9B9B9B40',
       },
       fontFamily: {
         jakarta: ['"Plus Jakarta Sans"', 'sans-serif'],
