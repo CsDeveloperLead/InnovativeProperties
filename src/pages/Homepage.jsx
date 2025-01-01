@@ -7,7 +7,7 @@ import TestimonialCarousel from "../Components/TestimonialCarousel.jsx";
 import Innovative from "../Components/Innovative.jsx";
 import PropertyGrid2 from "../Components/PropertyGrid2.jsx";
 import { Link } from "react-router-dom";
-import img1 from "../assets/img14.png";
+import img1 from "../assets/14.png";
 
 function Homepage() {
   return (
