@@ -2,3 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    .text-shadow {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+  
+    .text-shadow-lg {
+      text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
+    }
+  
+    .text-shadow-white {
+      text-shadow: 2px 2px 6px rgba(255, 255, 255, 0.7);
+    }
+  }
