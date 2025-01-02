@@ -1,40 +1,40 @@
-import img1 from "./assets/1.png";
-import img2 from "./assets/2.png";
-import img3 from "./assets/3.png";
-import img4 from "./assets/4.png";
-import img5 from "./assets/5.png";
-import img6 from "./assets/6.png";
-import img7 from "./assets/7.png";
-import img8 from "./assets/8.png";
-import img9 from "./assets/9.png";
-import img10 from "./assets/10.png";
-import img11 from "./assets/11.png";
-import img12 from "./assets/12.png";
-import img13 from "./assets/13.png";
-import img14 from "./assets/14.png";
-import img15 from "./assets/15.png";
-import img16 from "./assets/16.png";
-import img17 from "./assets/17.png";
-import img18 from "./assets/18.png";
-import img19 from "./assets/19.png";
-import img21 from "./assets/21.png";
-import img22 from "./assets/22.png";
-import img23 from "./assets/23.png";
-import img24 from "./assets/24.png";
-import img25 from "./assets/25.png";
-import img26 from "./assets/26.png";
-import img27 from "./assets/27.png";
-import img28 from "./assets/28.png";
-import img29 from "./assets/29.png";
-import img30 from "./assets/30.png";
-import img31 from "./assets/img31.png";
-import img32 from "./assets/img32.png";
-import img33 from "./assets/33.png";
-import img34 from "./assets/34.png";
-import img35 from "./assets/35.png";
-import img36 from "./assets/36.png";
-import img37 from "./assets/37.png";
-import img38 from "./assets/38.png";
+import img1 from "./assets/1.webp";
+import img2 from "./assets/2.webp";
+import img3 from "./assets/3.webp";
+import img4 from "./assets/4.webp";
+import img5 from "./assets/5.webp";
+import img6 from "./assets/6.webp";
+import img7 from "./assets/7.webp";
+import img8 from "./assets/8.webp";
+import img9 from "./assets/9.webp";
+import img10 from "./assets/10.webp";
+import img11 from "./assets/11.webp";
+import img12 from "./assets/12.webp";
+import img13 from "./assets/13.webp";
+import img14 from "./assets/14.webp";
+import img15 from "./assets/15.webp";
+import img16 from "./assets/16.webp";
+import img17 from "./assets/17.webp";
+import img18 from "./assets/18.webp";
+import img19 from "./assets/19.webp";
+import img21 from "./assets/21.webp";
+import img22 from "./assets/22.webp";
+import img23 from "./assets/23.webp";
+import img24 from "./assets/24.webp";
+import img25 from "./assets/25.webp";
+import img26 from "./assets/26.webp";
+import img27 from "./assets/27.webp";
+import img28 from "./assets/28.webp";
+import img29 from "./assets/29.webp";
+import img30 from "./assets/30.webp";
+import img31 from "./assets/img31.webp";
+import img32 from "./assets/img32.webp";
+import img33 from "./assets/33.webp";
+import img34 from "./assets/34.webp";
+import img35 from "./assets/35.webp";
+import img36 from "./assets/36.webp";
+import img37 from "./assets/37.webp";
+import img38 from "./assets/38.webp";
 
 //Brochure pdf
 import Property1 from "./assets/brochure/AceHaneiBrochure.pdf";
@@ -68,218 +68,218 @@ import Property28 from "./assets/brochure/TerraceHomesBrochure.pdf";
 import Property29 from "./assets/brochure/AmrapaliDreamValleyVillaBrochure.pdf";
 
 // Property 1
-import Property1img1 from "./assets/properties/Property1/img1.png";
-import Property1img2 from "./assets/properties/Property1/img2.png";
-import Property1img3 from "./assets/properties/Property1/img3.png";
-import Property1img4 from "./assets/properties/Property1/img4.png";
-import Property1img5 from "./assets/properties/Property1/img5.png";
-import Property1img6 from "./assets/properties/Property1/img6.png";
+import Property1img1 from "./assets/properties/Property1/img1.webp";
+import Property1img2 from "./assets/properties/Property1/img2.webp";
+import Property1img3 from "./assets/properties/Property1/img3.webp";
+import Property1img4 from "./assets/properties/Property1/img4.webp";
+import Property1img5 from "./assets/properties/Property1/img5.webp";
+import Property1img6 from "./assets/properties/Property1/img6.webp";
 
 // Property 2
-import Property2img1 from "./assets/properties/Property2/img1.png";
-import Property2img2 from "./assets/properties/Property2/img2.png";
-import Property2img3 from "./assets/properties/Property2/img3.png";
-import Property2img4 from "./assets/properties/Property2/img4.png";
-import Property2img5 from "./assets/properties/Property2/img5.png";
-import Property2img6 from "./assets/properties/Property2/img6.png";
+import Property2img1 from "./assets/properties/Property2/img1.webp";
+import Property2img2 from "./assets/properties/Property2/img2.webp";
+import Property2img3 from "./assets/properties/Property2/img3.webp";
+import Property2img4 from "./assets/properties/Property2/img4.webp";
+import Property2img5 from "./assets/properties/Property2/img5.webp";
+import Property2img6 from "./assets/properties/Property2/img6.webp";
 
 // Property 3
-import Property3img1 from "./assets/properties/Property3/img1.png";
-import Property3img2 from "./assets/properties/Property3/img2.png";
-import Property3img3 from "./assets/properties/Property3/img3.png";
-import Property3img4 from "./assets/properties/Property3/img4.png";
-import Property3img5 from "./assets/properties/Property3/img5.png";
-import Property3img6 from "./assets/properties/Property3/img6.png";
+import Property3img1 from "./assets/properties/Property3/img1.webp";
+import Property3img2 from "./assets/properties/Property3/img2.webp";
+import Property3img3 from "./assets/properties/Property3/img3.webp";
+import Property3img4 from "./assets/properties/Property3/img4.webp";
+import Property3img5 from "./assets/properties/Property3/img5.webp";
+import Property3img6 from "./assets/properties/Property3/img6.webp";
 
 // Property 4
-import Property4img1 from "./assets/properties/Property4/img1.png";
-import Property4img2 from "./assets/properties/Property4/img2.png";
-import Property4img3 from "./assets/properties/Property4/img3.png";
-import Property4img4 from "./assets/properties/Property4/img4.png";
-import Property4img5 from "./assets/properties/Property4/img5.png";
-import Property4img6 from "./assets/properties/Property4/img6.png";
+import Property4img1 from "./assets/properties/Property4/img1.webp";
+import Property4img2 from "./assets/properties/Property4/img2.webp";
+import Property4img3 from "./assets/properties/Property4/img3.webp";
+import Property4img4 from "./assets/properties/Property4/img4.webp";
+import Property4img5 from "./assets/properties/Property4/img5.webp";
+import Property4img6 from "./assets/properties/Property4/img6.webp";
 
 // Property 5
-import Property5img1 from "./assets/properties/Property5/img1.png";
-import Property5img2 from "./assets/properties/Property5/img2.png";
-import Property5img3 from "./assets/properties/Property5/img3.png";
-import Property5img4 from "./assets/properties/Property5/img4.png";
-import Property5img5 from "./assets/properties/Property5/img5.png";
-import Property5img6 from "./assets/properties/Property5/img6.png";
+import Property5img1 from "./assets/properties/Property5/img1.webp";
+import Property5img2 from "./assets/properties/Property5/img2.webp";
+import Property5img3 from "./assets/properties/Property5/img3.webp";
+import Property5img4 from "./assets/properties/Property5/img4.webp";
+import Property5img5 from "./assets/properties/Property5/img5.webp";
+import Property5img6 from "./assets/properties/Property5/img6.webp";
 
 // Property 6
-import Property6img1 from "./assets/properties/Property6/img1.png";
-import Property6img2 from "./assets/properties/Property6/img2.png";
-import Property6img3 from "./assets/properties/Property6/img3.png";
-import Property6img4 from "./assets/properties/Property6/img4.png";
-import Property6img5 from "./assets/properties/Property6/img5.png";
-import Property6img6 from "./assets/properties/Property6/img6.png";
+import Property6img1 from "./assets/properties/Property6/img1.webp";
+import Property6img2 from "./assets/properties/Property6/img2.webp";
+import Property6img3 from "./assets/properties/Property6/img3.webp";
+import Property6img4 from "./assets/properties/Property6/img4.webp";
+import Property6img5 from "./assets/properties/Property6/img5.webp";
+import Property6img6 from "./assets/properties/Property6/img6.webp";
 
 // Property 7
-import Property7img1 from "./assets/properties/Property7/img1.png";
-import Property7img2 from "./assets/properties/Property7/img2.png";
-import Property7img3 from "./assets/properties/Property7/img3.png";
-import Property7img4 from "./assets/properties/Property7/img4.png";
-import Property7img5 from "./assets/properties/Property7/img5.png";
-import Property7img6 from "./assets/properties/Property7/img6.png";
+import Property7img1 from "./assets/properties/Property7/img1.webp";
+import Property7img2 from "./assets/properties/Property7/img2.webp";
+import Property7img3 from "./assets/properties/Property7/img3.webp";
+import Property7img4 from "./assets/properties/Property7/img4.webp";
+import Property7img5 from "./assets/properties/Property7/img5.webp";
+import Property7img6 from "./assets/properties/Property7/img6.webp";
 
 // Property 8
-import Property8img1 from "./assets/properties/Property8/img1.png";
-import Property8img2 from "./assets/properties/Property8/img2.png";
-import Property8img3 from "./assets/properties/Property8/img3.png";
-import Property8img4 from "./assets/properties/Property8/img4.png";
-import Property8img5 from "./assets/properties/Property8/img5.png";
-import Property8img6 from "./assets/properties/Property8/img6.png";
+import Property8img1 from "./assets/properties/Property8/img1.webp";
+import Property8img2 from "./assets/properties/Property8/img2.webp";
+import Property8img3 from "./assets/properties/Property8/img3.webp";
+import Property8img4 from "./assets/properties/Property8/img4.webp";
+import Property8img5 from "./assets/properties/Property8/img5.webp";
+import Property8img6 from "./assets/properties/Property8/img6.webp";
 
 // Property 9 (5 images)
-import Property9img1 from "./assets/properties/Property9/img1.png";
-import Property9img2 from "./assets/properties/Property9/img2.png";
-import Property9img3 from "./assets/properties/Property9/img3.png";
-import Property9img4 from "./assets/properties/Property9/img4.png";
-import Property9img5 from "./assets/properties/Property9/img5.png";
+import Property9img1 from "./assets/properties/Property9/img1.webp";
+import Property9img2 from "./assets/properties/Property9/img2.webp";
+import Property9img3 from "./assets/properties/Property9/img3.webp";
+import Property9img4 from "./assets/properties/Property9/img4.webp";
+import Property9img5 from "./assets/properties/Property9/img5.webp";
 
 // Property 10
-import Property10img1 from "./assets/properties/Property10/img1.png";
-import Property10img2 from "./assets/properties/Property10/img2.png";
-import Property10img3 from "./assets/properties/Property10/img3.png";
-import Property10img4 from "./assets/properties/Property10/img4.png";
-import Property10img5 from "./assets/properties/Property10/img5.png";
-import Property10img6 from "./assets/properties/Property10/img6.png";
+import Property10img1 from "./assets/properties/Property10/img1.webp";
+import Property10img2 from "./assets/properties/Property10/img2.webp";
+import Property10img3 from "./assets/properties/Property10/img3.webp";
+import Property10img4 from "./assets/properties/Property10/img4.webp";
+import Property10img5 from "./assets/properties/Property10/img5.webp";
+import Property10img6 from "./assets/properties/Property10/img6.webp";
 
 // Property 11
-import Property11img1 from "./assets/properties/Property11/img1.png";
-import Property11img2 from "./assets/properties/Property11/img2.png";
-import Property11img3 from "./assets/properties/Property11/img3.png";
-import Property11img4 from "./assets/properties/Property11/img4.png";
-import Property11img5 from "./assets/properties/Property11/img5.png";
-import Property11img6 from "./assets/properties/Property11/img6.png";
+import Property11img1 from "./assets/properties/Property11/img1.webp";
+import Property11img2 from "./assets/properties/Property11/img2.webp";
+import Property11img3 from "./assets/properties/Property11/img3.webp";
+import Property11img4 from "./assets/properties/Property11/img4.webp";
+import Property11img5 from "./assets/properties/Property11/img5.webp";
+import Property11img6 from "./assets/properties/Property11/img6.webp";
 
 // Property 12
-import Property12img1 from "./assets/properties/Property12/img1.png";
-import Property12img2 from "./assets/properties/Property12/img2.png";
-import Property12img3 from "./assets/properties/Property12/img3.png";
-import Property12img4 from "./assets/properties/Property12/img4.png";
-import Property12img5 from "./assets/properties/Property12/img5.png";
-import Property12img6 from "./assets/properties/Property12/img6.png";
+import Property12img1 from "./assets/properties/Property12/img1.webp";
+import Property12img2 from "./assets/properties/Property12/img2.webp";
+import Property12img3 from "./assets/properties/Property12/img3.webp";
+import Property12img4 from "./assets/properties/Property12/img4.webp";
+import Property12img5 from "./assets/properties/Property12/img5.webp";
+import Property12img6 from "./assets/properties/Property12/img6.webp";
 
 // Property 13
-import Property13img1 from "./assets/properties/Property13/img1.png";
-import Property13img2 from "./assets/properties/Property13/img2.png";
-import Property13img3 from "./assets/properties/Property13/img3.png";
-import Property13img4 from "./assets/properties/Property13/img4.png";
-import Property13img5 from "./assets/properties/Property13/img5.png";
-import Property13img6 from "./assets/properties/Property13/img6.png";
+import Property13img1 from "./assets/properties/Property13/img1.webp";
+import Property13img2 from "./assets/properties/Property13/img2.webp";
+import Property13img3 from "./assets/properties/Property13/img3.webp";
+import Property13img4 from "./assets/properties/Property13/img4.webp";
+import Property13img5 from "./assets/properties/Property13/img5.webp";
+import Property13img6 from "./assets/properties/Property13/img6.webp";
 
 // Property 14
-import Property14img1 from "./assets/properties/Property14/img1.png";
-import Property14img2 from "./assets/properties/Property14/img2.png";
-import Property14img3 from "./assets/properties/Property14/img3.png";
-import Property14img4 from "./assets/properties/Property14/img4.png";
-import Property14img5 from "./assets/properties/Property14/img5.png";
-import Property14img6 from "./assets/properties/Property14/img6.png";
+import Property14img1 from "./assets/properties/Property14/img1.webp";
+import Property14img2 from "./assets/properties/Property14/img2.webp";
+import Property14img3 from "./assets/properties/Property14/img3.webp";
+import Property14img4 from "./assets/properties/Property14/img4.webp";
+import Property14img5 from "./assets/properties/Property14/img5.webp";
+import Property14img6 from "./assets/properties/Property14/img6.webp";
 
 // Property 15
-import Property15img1 from "./assets/properties/Property15/img1.png";
-import Property15img2 from "./assets/properties/Property15/img2.png";
-import Property15img3 from "./assets/properties/Property15/img3.png";
-import Property15img4 from "./assets/properties/Property15/img4.png";
-import Property15img5 from "./assets/properties/Property15/img5.png";
-import Property15img6 from "./assets/properties/Property15/img6.png";
+import Property15img1 from "./assets/properties/Property15/img1.webp";
+import Property15img2 from "./assets/properties/Property15/img2.webp";
+import Property15img3 from "./assets/properties/Property15/img3.webp";
+import Property15img4 from "./assets/properties/Property15/img4.webp";
+import Property15img5 from "./assets/properties/Property15/img5.webp";
+import Property15img6 from "./assets/properties/Property15/img6.webp";
 
 // Property 16 (5 images)
-import Property16img1 from "./assets/properties/Property16/img1.png";
-import Property16img2 from "./assets/properties/Property16/img2.png";
-import Property16img3 from "./assets/properties/Property16/img3.png";
-import Property16img4 from "./assets/properties/Property16/img4.png";
-import Property16img5 from "./assets/properties/Property16/img5.png";
+import Property16img1 from "./assets/properties/Property16/img1.webp";
+import Property16img2 from "./assets/properties/Property16/img2.webp";
+import Property16img3 from "./assets/properties/Property16/img3.webp";
+import Property16img4 from "./assets/properties/Property16/img4.webp";
+import Property16img5 from "./assets/properties/Property16/img5.webp";
 
 // Property 17
-import Property17img1 from "./assets/properties/Property17/img1.png";
-import Property17img2 from "./assets/properties/Property17/img2.png";
-import Property17img3 from "./assets/properties/Property17/img3.png";
-import Property17img4 from "./assets/properties/Property17/img4.png";
-import Property17img5 from "./assets/properties/Property17/img5.png";
-import Property17img6 from "./assets/properties/Property17/img6.png";
+import Property17img1 from "./assets/properties/Property17/img1.webp";
+import Property17img2 from "./assets/properties/Property17/img2.webp";
+import Property17img3 from "./assets/properties/Property17/img3.webp";
+import Property17img4 from "./assets/properties/Property17/img4.webp";
+import Property17img5 from "./assets/properties/Property17/img5.webp";
+import Property17img6 from "./assets/properties/Property17/img6.webp";
 
 // Property 18
-import Property18img1 from "./assets/properties/Property18/img1.png";
-import Property18img2 from "./assets/properties/Property18/img2.png";
-import Property18img3 from "./assets/properties/Property18/img3.png";
-import Property18img4 from "./assets/properties/Property18/img4.png";
-import Property18img5 from "./assets/properties/Property18/img5.png";
-import Property18img6 from "./assets/properties/Property18/img6.png";
+import Property18img1 from "./assets/properties/Property18/img1.webp";
+import Property18img2 from "./assets/properties/Property18/img2.webp";
+import Property18img3 from "./assets/properties/Property18/img3.webp";
+import Property18img4 from "./assets/properties/Property18/img4.webp";
+import Property18img5 from "./assets/properties/Property18/img5.webp";
+import Property18img6 from "./assets/properties/Property18/img6.webp";
 
 // Property 19
-import Property19img1 from "./assets/properties/Property19/img1.png";
-import Property19img2 from "./assets/properties/Property19/img2.png";
-import Property19img3 from "./assets/properties/Property19/img3.png";
-import Property19img4 from "./assets/properties/Property19/img4.png";
-import Property19img5 from "./assets/properties/Property19/img5.png";
-import Property19img6 from "./assets/properties/Property19/img6.png";
+import Property19img1 from "./assets/properties/Property19/img1.webp";
+import Property19img2 from "./assets/properties/Property19/img2.webp";
+import Property19img3 from "./assets/properties/Property19/img3.webp";
+import Property19img4 from "./assets/properties/Property19/img4.webp";
+import Property19img5 from "./assets/properties/Property19/img5.webp";
+import Property19img6 from "./assets/properties/Property19/img6.webp";
 
 // Property 20
-import Property20img1 from "./assets/properties/Property20/img1.png";
-import Property20img2 from "./assets/properties/Property20/img2.png";
-import Property20img3 from "./assets/properties/Property20/img3.png";
-import Property20img4 from "./assets/properties/Property20/img4.png";
-import Property20img5 from "./assets/properties/Property20/img5.png";
-import Property20img6 from "./assets/properties/Property20/img6.png";
+import Property20img1 from "./assets/properties/Property20/img1.webp";
+import Property20img2 from "./assets/properties/Property20/img2.webp";
+import Property20img3 from "./assets/properties/Property20/img3.webp";
+import Property20img4 from "./assets/properties/Property20/img4.webp";
+import Property20img5 from "./assets/properties/Property20/img5.webp";
+import Property20img6 from "./assets/properties/Property20/img6.webp";
 
 // Property 21
-import Property21img1 from "./assets/properties/Property21/img1.png";
-import Property21img2 from "./assets/properties/Property21/img2.png";
-import Property21img3 from "./assets/properties/Property21/img3.png";
-import Property21img4 from "./assets/properties/Property21/img4.png";
-import Property21img5 from "./assets/properties/Property21/img5.png";
-import Property21img6 from "./assets/properties/Property21/img6.png";
+import Property21img1 from "./assets/properties/Property21/img1.webp";
+import Property21img2 from "./assets/properties/Property21/img2.webp";
+import Property21img3 from "./assets/properties/Property21/img3.webp";
+import Property21img4 from "./assets/properties/Property21/img4.webp";
+import Property21img5 from "./assets/properties/Property21/img5.webp";
+import Property21img6 from "./assets/properties/Property21/img6.webp";
 
 // Property 22 (0 images)
 
 // Property 23
-import Property23img1 from "./assets/properties/Property23/img1.png";
-import Property23img2 from "./assets/properties/Property23/img2.png";
-import Property23img3 from "./assets/properties/Property23/img3.png";
-import Property23img4 from "./assets/properties/Property23/img4.png";
-import Property23img5 from "./assets/properties/Property23/img5.png";
-import Property23img6 from "./assets/properties/Property23/img6.png";
+import Property23img1 from "./assets/properties/Property23/img1.webp";
+import Property23img2 from "./assets/properties/Property23/img2.webp";
+import Property23img3 from "./assets/properties/Property23/img3.webp";
+import Property23img4 from "./assets/properties/Property23/img4.webp";
+import Property23img5 from "./assets/properties/Property23/img5.webp";
+import Property23img6 from "./assets/properties/Property23/img6.webp";
 
 // Property 24
-import Property24img1 from "./assets/properties/Property24/img1.png";
-import Property24img2 from "./assets/properties/Property24/img2.png";
-import Property24img3 from "./assets/properties/Property24/img3.png";
-import Property24img4 from "./assets/properties/Property24/img4.png";
-import Property24img5 from "./assets/properties/Property24/img5.png";
-import Property24img6 from "./assets/properties/Property24/img6.png";
+import Property24img1 from "./assets/properties/Property24/img1.webp";
+import Property24img2 from "./assets/properties/Property24/img2.webp";
+import Property24img3 from "./assets/properties/Property24/img3.webp";
+import Property24img4 from "./assets/properties/Property24/img4.webp";
+import Property24img5 from "./assets/properties/Property24/img5.webp";
+import Property24img6 from "./assets/properties/Property24/img6.webp";
 
 // Property 25 (0 images)
 
 // Property 26
-import Property26img1 from "./assets/properties/Property26/img1.png";
-import Property26img2 from "./assets/properties/Property26/img2.png";
-import Property26img3 from "./assets/properties/Property26/img3.png";
-import Property26img4 from "./assets/properties/Property26/img4.png";
-import Property26img5 from "./assets/properties/Property26/img5.png";
-import Property26img6 from "./assets/properties/Property26/img6.png";
+import Property26img1 from "./assets/properties/Property26/img1.webp";
+import Property26img2 from "./assets/properties/Property26/img2.webp";
+import Property26img3 from "./assets/properties/Property26/img3.webp";
+import Property26img4 from "./assets/properties/Property26/img4.webp";
+import Property26img5 from "./assets/properties/Property26/img5.webp";
+import Property26img6 from "./assets/properties/Property26/img6.webp";
 
 // Property 27
-import Property27img1 from "./assets/properties/Property27/img1.png";
-import Property27img2 from "./assets/properties/Property27/img2.png";
+import Property27img1 from "./assets/properties/Property27/img1.webp";
+import Property27img2 from "./assets/properties/Property27/img2.webp";
 
 // Property 28
-import Property28img1 from "./assets/properties/Property28/img1.png";
-import Property28img2 from "./assets/properties/Property28/img2.png";
-import Property28img3 from "./assets/properties/Property28/img3.png";
-import Property28img4 from "./assets/properties/Property28/img4.png";
-import Property28img5 from "./assets/properties/Property28/img5.png";
-import Property28img6 from "./assets/properties/Property28/img6.png";
+import Property28img1 from "./assets/properties/Property28/img1.webp";
+import Property28img2 from "./assets/properties/Property28/img2.webp";
+import Property28img3 from "./assets/properties/Property28/img3.webp";
+import Property28img4 from "./assets/properties/Property28/img4.webp";
+import Property28img5 from "./assets/properties/Property28/img5.webp";
+import Property28img6 from "./assets/properties/Property28/img6.webp";
 
 // Property 29
-import Property29img1 from "./assets/properties/Property29/img1.png";
-import Property29img2 from "./assets/properties/Property29/img2.png";
-import Property29img3 from "./assets/properties/Property29/img3.png";
-import Property29img4 from "./assets/properties/Property29/img4.png";
-import Property29img5 from "./assets/properties/Property29/img5.png";
-import Property29img6 from "./assets/properties/Property29/img6.png";
+import Property29img1 from "./assets/properties/Property29/img1.webp";
+import Property29img2 from "./assets/properties/Property29/img2.webp";
+import Property29img3 from "./assets/properties/Property29/img3.webp";
+import Property29img4 from "./assets/properties/Property29/img4.webp";
+import Property29img5 from "./assets/properties/Property29/img5.webp";
+import Property29img6 from "./assets/properties/Property29/img6.webp";
 
 const propertyData = [
   {

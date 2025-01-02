@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Card from '../../assets/homepage/card1.png'
+import Card from '../../assets/homepage/card1.webp'
 import { CiLocationOn } from "react-icons/ci";
 import { PiHouseLineThin } from "react-icons/pi";
 import { PiCurrencyDollarThin } from "react-icons/pi";
