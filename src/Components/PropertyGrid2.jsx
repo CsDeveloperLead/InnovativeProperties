@@ -15,7 +15,7 @@ const PropertyGrid2 = () => {
             <span className="border-white border-2 text-white px-6 py-1 rounded-full">
               Handled by Our Proffesionals
             </span>
-            <span className="border-white border-2 rounded-full w-[200px] text-white text-base px-6 py-1">
+            <span className="border-white border-2 rounded-full w-[150px] text-white text-base px-6 py-1">
               Fast Process
             </span>
           </div>
@@ -27,7 +27,7 @@ const PropertyGrid2 = () => {
             <span className="border-white border-2 text-white px-6 py-1 rounded-full">
               Handled by Our Proffesionals
             </span>
-            <span className="border-white border-2 rounded-full w-[200px] text-white text-base px-6 py-1">
+            <span className="border-white border-2 rounded-full w-[150px] text-white text-base px-6 py-1">
               Fast Process
             </span>
           </div>
@@ -42,7 +42,7 @@ const PropertyGrid2 = () => {
             <span className="border-white border-2 text-white px-6 py-1 rounded-full">
               Handled by Our Proffesionals
             </span>
-            <span className="border-white border-2 rounded-full w-[200px] text-white text-base px-6 py-1">
+            <span className="border-white border-2 rounded-full w-[150px] text-white text-base px-6 py-1">
               Fast Process
             </span>
           </div>
@@ -55,7 +55,7 @@ const PropertyGrid2 = () => {
             <span className="border-white border-2 text-white px-6 py-1 rounded-full">
               Handled by Our Proffesionals
             </span>
-            <span className="border-white border-2 rounded-full w-[200px] text-white text-base px-6 py-1">
+            <span className="border-white border-2 rounded-full w-[150px] text-white text-base px-6 py-1">
               Fast Process
             </span>
           </div>
