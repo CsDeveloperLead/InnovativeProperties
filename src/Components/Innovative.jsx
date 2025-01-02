@@ -1,8 +1,8 @@
 import React from "react";
-import icon1 from "../assets/icon1.png";
-import icon2 from "../assets/icon2.png";
-import icon3 from "../assets/icon3.png";
-import icon4 from "../assets/icon4.png";
+import icon1 from "../assets/icon1.webp";
+import icon2 from "../assets/icon2.webp";
+import icon3 from "../assets/icon3.webp";
+import icon4 from "../assets/icon4.webp";
 
 const Innovative = () => {
   const features = [

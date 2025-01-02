@@ -1,6 +1,6 @@
 import React from 'react'
-import Text from '../../assets/contact/1.png'
-import Icon from '../../assets/contact/2.png'
+import Text from '../../assets/contact/1.webp'
+import Icon from '../../assets/contact/2.webp'
 
 function Section2() {
     return (

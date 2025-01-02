@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from '../assets/homepage/Logo.png'
+import Logo from '../assets/homepage/Logo.webp'
 import { HiMiniBars2 } from "react-icons/hi2";
 import { NavLink } from 'react-router-dom';
 import { IoClose } from "react-icons/io5";

@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import bgimg1 from "../assets/1.png";
-import bgimg2 from "../assets/2.png";
-import bgimg3 from "../assets/3.png";
-import bgimg4 from "../assets/4.png";
+import bgimg1 from "../assets/1.webp";
+import bgimg2 from "../assets/2.webp";
+import bgimg3 from "../assets/3.webp";
+import bgimg4 from "../assets/4.webp";
 
 const PropertyGrid2 = () => {
 
