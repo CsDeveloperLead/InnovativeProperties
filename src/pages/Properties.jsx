@@ -94,26 +94,26 @@ const Properties = () => {
             </div>
           </div>
 
-          {/* Property Type Filter */}
+          {/* Bedrooms Filter */}
           <div className="w-auto h-auto flex flex-col">
-            <label htmlFor="propertyType" className="font-semibold">
-              Select Property Type
+            <label htmlFor="bedrooms" className="font-semibold">
+              Config
             </label>
             <div className="w-auto h-auto flex items-center py-2 gap-2">
-              <PiHouseLineThin size={20} />
+              <PiBedLight size={20} />
               <div className="">
                 <select
-                  id="propertyType"
-                  value={filters.propertyType}
+                  id="bedrooms"
+                  value={filters.bedrooms}
                   onChange={handleFilterChange}
                   className="outline-none text-gray-500"
                 >
                   <option value="" disabled>
                     Choose
                   </option>
-                  <option value="Commercials">Commercials</option>
-                  <option value="Apartment">Apartment</option>
-                  <option value="Plots">Plots</option>
+                  <option value="2 BHK">2 BHK</option>
+                  <option value="3 BHK">3 BHK</option>
+                  <option value="4 BHK">4 BHK</option>
                 </select>
               </div>
             </div>
@@ -145,26 +145,26 @@ const Properties = () => {
             </div>
           </div>
 
-          {/* Bedrooms Filter */}
+          {/* Property Type Filter */}
           <div className="w-auto h-auto flex flex-col">
-            <label htmlFor="bedrooms" className="font-semibold">
-              Config
+            <label htmlFor="propertyType" className="font-semibold">
+              Select Property Type
             </label>
             <div className="w-auto h-auto flex items-center py-2 gap-2">
-              <PiBedLight size={20} />
+              <PiHouseLineThin size={20} />
               <div className="">
                 <select
-                  id="bedrooms"
-                  value={filters.bedrooms}
+                  id="propertyType"
+                  value={filters.propertyType}
                   onChange={handleFilterChange}
                   className="outline-none text-gray-500"
                 >
                   <option value="" disabled>
                     Choose
                   </option>
-                  <option value="2 BHK">2 BHK</option>
-                  <option value="3 BHK">3 BHK</option>
-                  <option value="4 BHK">4 BHK</option>
+                  <option value="Commercials">Commercials</option>
+                  <option value="Apartment">Apartment</option>
+                  <option value="Plots">Plots</option>
                 </select>
               </div>
             </div>
