@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import test1 from "../assets/test1.jpg";
-import test2 from "../assets/test2.jpg";
-import test3 from "../assets/test3.jpg";
-import test4 from "../assets/test4.jpg";
+import test1 from "../assets/test1.webp";
+import test2 from "../assets/test2.webp";
+import test3 from "../assets/test3.webp";
+import test4 from "../assets/test4.webp";
 import test5 from "../assets/test5.avif";
 import test6 from "../assets/test6.avif";
 import test7 from "../assets/test7.avif";
