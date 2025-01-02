@@ -22,7 +22,7 @@ const PropertyGrid = () => {
               <h1>{propertyData[0].config}</h1>
               <h1 className="">{propertyData[0].price}</h1>
             </span>
-            <Link to={`/single-property/${propertyData[0].id}`} className="w-full h-auto bg-white text-lg flex justify-center items-center font-bold text-black rounded-2xl px-6 py-2.5 mt-4">
+            <Link to={`/single-property/${propertyData[0].id}`} className="w-full h-auto md:hover:bg-[#0F3C4C] md:hover:text-white duration-300 ease-in-out bg-white text-lg flex justify-center items-center font-bold text-black rounded-2xl px-6 py-2.5 mt-4">
               Buy Properties
             </Link>
           </div>
@@ -39,7 +39,7 @@ const PropertyGrid = () => {
               <h1>{propertyData[1].config}</h1>
               <h1 className="">{propertyData[1].price}</h1>
             </span>
-            <Link to={`/single-property/${propertyData[1].id}`} className="w-full h-auto flex justify-center items-center bg-white text-lg font-bold text-black rounded-2xl px-6 py-2.5 mt-4">
+            <Link to={`/single-property/${propertyData[1].id}`} className="w-full h-auto md:hover:bg-[#0F3C4C] md:hover:text-white duration-300 ease-in-out flex justify-center items-center bg-white text-lg font-bold text-black rounded-2xl px-6 py-2.5 mt-4">
               Buy Properties
             </Link>
           </div>
@@ -56,7 +56,7 @@ const PropertyGrid = () => {
               <h1>{propertyData[2].config}</h1>
               <h1 className="">{propertyData[2].price}</h1>
             </span>
-            <Link to={`/single-property/${propertyData[2].id}`} className="w-full h-auto bg-white flex justify-center items-center text-lg font-bold text-black rounded-2xl px-6 py-2.5 mt-4">
+            <Link to={`/single-property/${propertyData[2].id}`} className="w-full h-auto md:hover:bg-[#0F3C4C] md:hover:text-white duration-300 ease-in-out bg-white flex justify-center items-center text-lg font-bold text-black rounded-2xl px-6 py-2.5 mt-4">
               Buy Properties
             </Link>
           </div>
