@@ -20,7 +20,7 @@ const PropertyGrid2 = () => {
             </span>
           </div>
           <div className="absolute bottom-20 left-6 text-white text-4xl text-shadow">Property for Sale</div>
-          <button className="absolute bg-[#0F3C4C] drop-shadow-md bottom-6 left-6 text-white text-base font-bold rounded-xl hover:bg-[#195e77] px-6 py-2">Buy Properties</button>
+          <Link to="/properties" className="absolute bg-[#0F3C4C] drop-shadow-md bottom-6 left-6 text-white text-base font-bold rounded-xl hover:bg-[#195e77] px-6 py-2">Buy Properties</Link>
         </div>
         <div className="w-full md:w-[40%] h-[320px]  rounded-3xl relative "  style={{backgroundImage: `url(${bgimg2})`, backgroundSize: "cover", backgroundPosition: "center bottom", backgroundRepeat: "no-repeat"}}>
           <div className="absolute top-6 text-shadow left-6 md:space-x-6 flex flex-col md:flex-row gap-2">
@@ -32,7 +32,7 @@ const PropertyGrid2 = () => {
             </span>
           </div>
           <div className="absolute bottom-20 left-6 text-white text-4xl text-shadow">Property for Rent</div>
-          <button className="absolute bg-[#0F3C4C] drop-shadow-md bottom-6 left-6 text-white text-base font-bold rounded-xl hover:bg-[#195e77] px-6 py-2">Buy Properties</button>
+          <Link to="/properties" className="absolute bg-[#0F3C4C] drop-shadow-md bottom-6 left-6 text-white text-base font-bold rounded-xl hover:bg-[#195e77] px-6 py-2">Buy Properties</Link>
         </div>
       </div>
       <div className="w-full flex flex-col md:flex-row gap-4">
@@ -47,7 +47,7 @@ const PropertyGrid2 = () => {
             </span>
           </div>
           <div className="absolute bottom-20 left-6 text-white text-4xl text-shadow">Sell Your Property</div>
-          <button className="absolute bg-[#0F3C4C] drop-shadow-md bottom-6 left-6 text-white text-base font-bold rounded-xl hover:bg-[#195e77] px-6 py-2">Buy Properties</button>
+          <Link to="/properties" className="absolute bg-[#0F3C4C] drop-shadow-md bottom-6 left-6 text-white text-base font-bold rounded-xl hover:bg-[#195e77] px-6 py-2">Buy Properties</Link>
         </div>
         <div className="w-full md:w-[60%] h-[320px] rounded-3xl relative"  style={{backgroundImage: `url(${bgimg4})`, backgroundSize: "cover", backgroundPosition: "center bottom", backgroundRepeat: "no-repeat"}}>
           {" "}
@@ -60,7 +60,7 @@ const PropertyGrid2 = () => {
             </span>
           </div>
           <div className="absolute bottom-20 left-6 text-white text-4xl text-shadow">Development for Sale</div>
-          <button className="absolute bg-[#0F3C4C] drop-shadow-md bottom-6 left-6 text-white text-base font-bold rounded-xl hover:bg-[#195e77] px-6 py-2">Buy Properties</button>
+          <Link to="/properties" className="absolute bg-[#0F3C4C] drop-shadow-md bottom-6 left-6 text-white text-base font-bold rounded-xl hover:bg-[#195e77] px-6 py-2">Buy Properties</Link>
         </div>
       </div>
     </div>

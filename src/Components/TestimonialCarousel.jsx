@@ -127,7 +127,7 @@ const TestimonialCarousel = () => {
       </div>
 
       {/* Carousel Container */}
-      <div className="relative w-full overflow-hidden">
+      <div className="relative w-full overflow-hidden md:h-[300px]">
         <div
           className="flex transition-transform duration-500 ease-in-out"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -162,7 +162,7 @@ const TestimonialCarousel = () => {
                   return (
                     <div
                       key={testimonial.id}
-                      className={`flex-none ${cardWidth} bg-white rounded-2xl duration-500 border border-[#0f3c4c] p-4`}
+                      className={`flex-none ${cardWidth} bg-white rounded-2xl duration-500 border border-[#0f3c4c] md:h-[300px] 2xl:h-[250px] p-4`}
                       onMouseEnter={() => setHoveredIndex(globalIndex)}
                       onMouseLeave={() => setHoveredIndex(null)}
                     >

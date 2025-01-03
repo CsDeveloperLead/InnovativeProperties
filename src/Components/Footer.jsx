@@ -4,7 +4,7 @@ import Logo from '../assets/homepage/logo1.webp'
 
 function Footer() {
     return (
-        <div className='w-full h-auto flex flex-col relative justify-center font-jakarta items-center bg-[#0F3C4C] mt-40'>
+        <div className='w-full h-auto flex flex-col relative justify-center font-jakarta items-center bg-[#0F3C4C] mt-20'>
             <div className='absolute w-[90%] mx-auto h-auto flex flex-col -top-20 rounded-3xl bg-[#626262] p-3 gap-6 sm:p-6 md:w-[85%] lg:w-[70%] lg:p-10 lg:gap-8'>
                 <h1 className='text-xl font-semibold text-white md:text-2xl lg:text-4xl'>Ready to Find Your Perfect Home?</h1>
                 <p className='text-sm text-[#F5F5F5] md:text-base lg:pr-40'>Our experts are here to help you every step of the way. Let’s make finding your dream property easy and enjoyable.</p>

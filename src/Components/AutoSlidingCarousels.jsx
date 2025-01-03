@@ -9,11 +9,11 @@ const AutoSlidingCarousel = () => {
   const sliderRef = useRef(null);
   const intervalRef = useRef(null);
 
-  const slideWidth = 100 / propertyData.length; // Calculate the width of one slide as a percentage
+  const slideWidth = 100 / propertyData.slice(29).length; // Calculate the width of one slide as a percentage
 
   const startAutoSlide = () => {
     intervalRef.current = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % propertyData.length);
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % propertyData.slice(29).length);
     }, 5000);
   };
 
@@ -41,11 +41,11 @@ const AutoSlidingCarousel = () => {
     const difference = e.clientX - startX;
     if (difference > 50) {
       setCurrentIndex((prevIndex) =>
-        prevIndex === 0 ? propertyData.length - 1 : prevIndex - 1
+        prevIndex === 0 ? propertyData.slice(29).length - 1 : prevIndex - 1
       );
       setIsDragging(false);
     } else if (difference < -50) {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % propertyData.length);
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % propertyData.slice(29).length);
       setIsDragging(false);
     }
   };
@@ -67,11 +67,11 @@ const AutoSlidingCarousel = () => {
     const difference = e.touches[0].clientX - startX;
     if (difference > 50) {
       setCurrentIndex((prevIndex) =>
-        prevIndex === 0 ? propertyData.length - 1 : prevIndex - 1
+        prevIndex === 0 ? propertyData.slice(29).length - 1 : prevIndex - 1
       );
       setIsDragging(false);
     } else if (difference < -50) {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % propertyData.length);
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % propertyData.slice(29).length);
       setIsDragging(false);
     }
   };
@@ -100,10 +100,10 @@ const AutoSlidingCarousel = () => {
         className="flex transition-transform duration-700 ease-in-out rounded-3xl"
         style={{
           transform: `translateX(-${currentIndex * slideWidth}%)`,
-          width: `${propertyData.length * 100}%`,
+          width: `${propertyData.slice(29).length * 100}%`,
         }}
       >
-        {propertyData.slice(0,29).map((property, index) => (
+        {propertyData.slice(29).map((property, index) => (
           <div
             key={index}
             className="w-full flex-shrink-0 rounded-3xl"
@@ -115,7 +115,7 @@ const AutoSlidingCarousel = () => {
                 style={{
                   backgroundImage: `url(${property.img})`,
                   backgroundSize: "cover",
-                  backgroundPosition: "center",
+                  backgroundPosition: "center bottom",
                   backgroundRepeat: "no-repeat",
                 }}
               >
@@ -141,9 +141,9 @@ const AutoSlidingCarousel = () => {
                         <p className="text-white text-base lg:text-xl font-bold text-center md:text-start">
                           {property.area}
                         </p>
-                        <p className="text-white text-base lg:text-xl font-bold text-center md:text-start">
+                        {/* <p className="text-white text-base lg:text-xl font-bold text-center md:text-start">
                           {property.config}
-                        </p>
+                        </p> */}
                         <div className="w-full">
                           <Link
                             to={property.link}
@@ -165,7 +165,7 @@ const AutoSlidingCarousel = () => {
                         rel="noopener noreferrer"
                         className="hidden md:block relative group rounded-full"
                       >
-                        <button className="bg-[#0f3c4c] w-[180px] relative z-10 text-sm md:text-base py-1 md:py-2 rounded-3xl px-4 md:px-8 border border-white text-white font-bold flex justify-center items-center">
+                        <button className="bg-[#0f3c4c] w-[180px] relative z-10 text-sm md:text-base py-1 md:py-2 rounded-3xl px-4 md:px-8 border border-white text-white font-bold flex justify-center items-center md:hover:bg-[#2f7892] duration-300 ease-in-out">
                           Get Quote
                         </button>
                       </Link>

@@ -16,7 +16,7 @@ function LandingPage() {
     bedrooms: "",
   });
 
-  const [filteredProperties, setFilteredProperties] = useState(Property);
+  const [filteredProperties, setFilteredProperties] = useState(Property.slice(29));
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -31,17 +31,17 @@ function LandingPage() {
   };
 
   const applyFilters = () => {
-    const filtered = Property.filter((property) => {
+    const filtered = Property.slice(29).filter((property) => {
       const matchesLocation =
-        !filters.location || property.fullLocation?.toLowerCase().includes(filters.location.toLowerCase());
+        !filters.location || property.location?.toLowerCase().includes(filters.location.toLowerCase());
       const matchesPropertyType =
         !filters.propertyType || property.type.toLowerCase() === filters.propertyType.toLowerCase();
       const matchesBudget =
         !filters.budget || (property.price && isBudgetInRange(property.price, filters.budget));
-      const matchesBedrooms =
-        !filters.bedrooms || (property.config && property.config.includes(filters.bedrooms));
+      // const matchesBedrooms =
+      //   !filters.bedrooms || (property.config && property.config.includes(filters.bedrooms));
 
-      return matchesLocation && matchesPropertyType && matchesBudget && matchesBedrooms;
+      return matchesLocation && matchesPropertyType && matchesBudget;
     });
 
     setFilteredProperties(filtered);
@@ -62,10 +62,10 @@ function LandingPage() {
       <div className='w-full h-auto flex flex-col bg-custom-gradient'>
         <div className='w-full h-auto flex flex-col gap-6 px-5 my-4 md:flex-row-reverse md:px-10 md:my-8 xl:px-20'>
           <div className='w-full h-auto relative sm:w-[60%] sm:mx-auto md:w-[50%]'>
-            <img src="" alt="" className='w-full h-80 md:h-full bg-gray-200 rounded-3xl' />
-            <div className='w-auto h-auto absolute top-4 lg:top-6 lg:px-7 flex gap-3 px-5 xl:gap-16'>
-              <span className='rounded-xl p-1 px-2 text-sm bg-[#F8F9FA]'>Punjabi Bagh</span>
-              <span className='rounded-xl p-1 px-2 text-sm bg-[#F8F9FA]'>Punjabi Bagh</span>
+            <img src={Property[30].img} alt="img" className='w-full h-80 md:h-full rounded-3xl' />
+            <div className='w-auto h-auto absolute top-4 lg:top-6 lg:px-7 flex gap-3 px-5 xl:gap-10'>
+              <span className='rounded-xl p-1 px-2 text-sm bg-[#F8F9FA]'>{Property[30].title}</span>
+              <span className='rounded-xl p-1 px-2 text-sm bg-[#F8F9FA]'>{Property[30].price}</span>
             </div>
             <img src={Card} alt="card" className='absolute h-20 w-20 bottom-0 -left-2 sm:-left-6 sm:bottom-6 md:h-28 md:w-28 md:-left-10 xl:w-36 xl:h-36 xl:-left-16' />
           </div>
@@ -157,7 +157,7 @@ function LandingPage() {
           </div>
         </div> */}
         <div className="w-[90%] h-auto p-4 shadow-custom rounded-3xl flex flex-col lg:py-8 bg-white my-7 gap-5 mx-auto font-jakarta lg:flex-row lg:gap-3 lg:justify-between">
-          <div className="w-full h-auto grid grid-cols-2 gap-5 place-content-between md:grid-cols-4 md:place-items-center lg:w-[80%]">
+          <div className="w-full h-auto grid grid-cols-2 gap-5 place-content-between md:grid-cols-3 md:place-items-center lg:w-[80%]">
             {/* Location Filter */}
             <div className="w-auto h-auto flex flex-col">
               <label htmlFor="location" className="font-semibold">
@@ -176,15 +176,16 @@ function LandingPage() {
                       Choose
                     </option>
                     <option value="Ghaziabad">Ghaziabad</option>
-                    <option value="Noida">Noida</option>
-                    <option value="Greater Noida">Gr. Noida</option>
+                    {/* <option value="Noida">Noida</option>
+                    <option value="Greater Noida">Gr. Noida</option> */}
+                    <option value="Haridwar">Uttrakhand</option>
                   </select>
                 </div>
               </div>
             </div>
 
-            {/* Bedrooms Filter */}
-            <div className="w-auto h-auto flex flex-col">
+            {/* Confif Filter */}
+            {/* <div className="w-auto h-auto flex flex-col">
               <label htmlFor="bedrooms" className="font-semibold">
                 Config
               </label>
@@ -206,7 +207,7 @@ function LandingPage() {
                   </select>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Budget Filter */}
             <div className="w-auto h-auto flex flex-col">
@@ -225,10 +226,11 @@ function LandingPage() {
                     <option value="" disabled>
                       Set Range
                     </option>
-                    <option value="1k-5k">₹1k - 5k/sq.ft</option>
-                    <option value="6k-10k">₹6k - 10k/sq.ft</option>
-                    <option value="11k-15k">₹11k - 15k/sq.ft</option>
-                    <option value="16k-20k">₹16k - 20k/sq.ft</option>
+                    {/* <option value="1k-5k">₹1k - 5k/sq.ft</option>
+                    <option value="6k-10k">₹6k - 10k/sq.ft</option> */}
+                    <option value="11k-15k">₹11k - 20k/sq.ft</option>
+                    {/* <option value="16k-20k">₹16k - 20k/sq.ft</option> */}
+                    <option value="21k-30k">₹21k - 30k/sq.ft</option>
                   </select>
                 </div>
               </div>
@@ -252,7 +254,7 @@ function LandingPage() {
                       Choose
                     </option>
                     <option value="Commercials">Commercials</option>
-                    <option value="Apartment">Apartment</option>
+                    {/* <option value="Apartment">Apartment</option> */}
                     <option value="Plots">Plots</option>
                   </select>
                 </div>

@@ -17,7 +17,7 @@ const Properties = () => {
     bedrooms: "",
   });
 
-  const [filteredProperties, setFilteredProperties] = useState(Property);
+  const [filteredProperties, setFilteredProperties] = useState(Property.slice(29));
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -32,17 +32,17 @@ const Properties = () => {
   };
 
   const applyFilters = () => {
-    const filtered = Property.filter((property) => {
+    const filtered = Property.slice(29).filter((property) => {
       const matchesLocation =
-        !filters.location || property.fullLocation?.toLowerCase().includes(filters.location.toLowerCase());
+        !filters.location || property.location?.toLowerCase().includes(filters.location.toLowerCase());
       const matchesPropertyType =
         !filters.propertyType || property.type.toLowerCase() === filters.propertyType.toLowerCase();
       const matchesBudget =
         !filters.budget || (property.price && isBudgetInRange(property.price, filters.budget));
-      const matchesBedrooms =
-        !filters.bedrooms || (property.config && property.config.includes(filters.bedrooms));
+      // const matchesBedrooms =
+      //   !filters.bedrooms || (property.config && property.config.includes(filters.bedrooms));
 
-      return matchesLocation && matchesPropertyType && matchesBudget && matchesBedrooms;
+      return matchesLocation && matchesPropertyType && matchesBudget;
     });
 
     setFilteredProperties(filtered);
@@ -59,7 +59,7 @@ const Properties = () => {
   };
 
   return (
-    <div className="px-5 md:px-10 xl:px-20">
+    <div className="px-5 md:px-10 xl:px-20 mb-40">
       {/* section1 */}
       {/* <div className="w-full h-[450px] bg-gray-400 rounded-3xl my-10"></div> */}
       <div className="mt-6">
@@ -68,7 +68,7 @@ const Properties = () => {
 
       {/* section2 */}
       <div className="w-full h-auto p-4 shadow-custom rounded-3xl flex flex-col lg:py-8 bg-white my-7 gap-5 mx-auto font-jakarta lg:flex-row lg:gap-3 lg:justify-between">
-        <div className="w-full h-auto grid grid-cols-2 gap-5 place-content-between md:grid-cols-4 md:place-items-center lg:w-[80%]">
+        <div className="w-full h-auto grid grid-cols-2 gap-5 place-content-between md:grid-cols-3 md:place-items-center lg:w-[80%]">
           {/* Location Filter */}
           <div className="w-auto h-auto flex flex-col">
             <label htmlFor="location" className="font-semibold">
@@ -87,15 +87,16 @@ const Properties = () => {
                     Choose
                   </option>
                   <option value="Ghaziabad">Ghaziabad</option>
-                  <option value="Noida">Noida</option>
-                  <option value="Greater Noida">Gr. Noida</option>
+                  {/* <option value="Noida">Noida</option>
+                    <option value="Greater Noida">Gr. Noida</option> */}
+                  <option value="Haridwar">Uttrakhand</option>
                 </select>
               </div>
             </div>
           </div>
 
-          {/* Bedrooms Filter */}
-          <div className="w-auto h-auto flex flex-col">
+          {/* Config Filter */}
+          {/* <div className="w-auto h-auto flex flex-col">
             <label htmlFor="bedrooms" className="font-semibold">
               Config
             </label>
@@ -117,7 +118,7 @@ const Properties = () => {
                 </select>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Budget Filter */}
           <div className="w-auto h-auto flex flex-col">
@@ -136,10 +137,11 @@ const Properties = () => {
                   <option value="" disabled>
                     Set Range
                   </option>
-                  <option value="1k-5k">₹1k - 5k/sq.ft</option>
-                  <option value="6k-10k">₹6k - 10k/sq.ft</option>
-                  <option value="11k-15k">₹11k - 15k/sq.ft</option>
-                  <option value="16k-20k">₹16k - 20k/sq.ft</option>
+                  {/* <option value="1k-5k">₹1k - 5k/sq.ft</option>
+                    <option value="6k-10k">₹6k - 10k/sq.ft</option> */}
+                  <option value="11k-15k">₹11k - 20k/sq.ft</option>
+                  {/* <option value="16k-20k">₹16k - 20k/sq.ft</option> */}
+                  <option value="21k-30k">₹21k - 30k/sq.ft</option>
                 </select>
               </div>
             </div>
@@ -163,7 +165,7 @@ const Properties = () => {
                     Choose
                   </option>
                   <option value="Commercials">Commercials</option>
-                  <option value="Apartment">Apartment</option>
+                  {/* <option value="Apartment">Apartment</option> */}
                   <option value="Plots">Plots</option>
                 </select>
               </div>
@@ -183,7 +185,7 @@ const Properties = () => {
       </div>
 
       {/* section3 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-10 place-items-center my-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-10 place-items-center mt-20">
         {
           filteredProperties.length === 0
             ? (
